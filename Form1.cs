@@ -17,6 +17,7 @@ namespace Calculadora
         public Form1()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void closeButton_MouseEnter(object sender, EventArgs e)
